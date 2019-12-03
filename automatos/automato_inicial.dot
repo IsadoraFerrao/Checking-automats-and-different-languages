@@ -1,0 +1,24 @@
+digraph {
+	q0 -> q1 [label="A", weight=100];
+	q0 -> q3 [label="C", weight=100];
+	q1 -> q1 [label="A", weight=100];
+	q1 -> q2 [label="B", weight=100];
+	q1 -> q3 [label="C", weight=100];
+	q2 -> q3 [label="A", weight=100];
+	q2 -> q3 [label="B", weight=100];
+	q2 -> q3 [label="C", weight=100];
+	q3 -> q3 [label="A", weight=100];
+	q3 -> q3 [label="B", weight=100];
+	q3 -> q4 [label="C", weight=100];
+	q4 -> q3 [label="A", weight=100];
+	q4 -> q3 [label="B", weight=100];
+	q4 -> q0 [label="C", weight=100];
+	q0 [label="Inicio
+q0", color=blue, style=filled];
+	q1 [label="Final
+q1", color=green, style=filled];
+	q3 [label="Final
+q3", color=green, style=filled];
+	q4 [label="Final
+q4", color=green, style=filled];
+}

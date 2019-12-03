@@ -1,0 +1,23 @@
+TRABALHO 1 - LINGUAGENS FORMAIS
+SIMULADOR DE AUTÔMATO FINITO DETERMINÍSTICO
+
+Entrada1: ({Alfabeto},{Estados},{F.Transição},Est.Inicial,{Est.Finais})
+	Alfabeto
+	Estados do Autômato
+	Função de Transição
+	Estado Inicial
+	Conjunto de Estados Finais
+	
+Entrada2:
+	Palavras
+	
+Saida:
+	Definir se a palavra é aceita ou rejeitada
+	Minimizar o automato
+	Mostrar os estados inacessíveis
+	Mostrar os estados mortos
+	
+COMO EXECUTAR:
+	gcc -o afd afd.c
+	./afd
+
