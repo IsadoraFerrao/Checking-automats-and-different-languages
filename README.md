@@ -1,0 +1,1 @@
+An automaton is a machine or robot that operates automatically. This code implemented examples of languages that pass through the automaton and its final minimization.
